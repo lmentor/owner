@@ -19,7 +19,7 @@ if [ $1 ]; then
 		if [[ $2 ]] && [[ "$2" == "pic=no" ]]; then
 			docker create --rm -v $1:/media -v $1/strm.txt:/strm.txt -e LANG=C.UTF-8  xiaoyaliu/glue:python /init2.sh
 		else	
-			docker run -i --name=strm -v $1:/media -v $1/strm.txt:/strm.txt -e LANG=C.UTF-8  xiaoyaliu/glue:python /init3.sh
+			docker create --name=strm -v $1:/media -v $1/strm.txt:/strm.txt -e LANG=C.UTF-8  xiaoyaliu/glue:python /init3.sh
 		fi	
 	else
 		echo "$1/strm.txt 为空文件，请编辑后重试"
