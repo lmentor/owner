@@ -2,6 +2,15 @@
 
 # MyList
 # 域名后缀匹配
+DOMAIN-SUFFIX,api.nn.ci
+DOMAIN-SUFFIX,quark.xiaoya.pro
+DOMAIN-SUFFIX,al.chirmyram.com
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,dnsany.com
+DOMAIN-SUFFIX,yangshipin.cn
+DOMAIN-SUFFIX,cctv.cn
+DOMAIN-SUFFIX,mobaibox.com
 DOMAIN-SUFFIX,lmentor.dynv6.net
 DOMAIN-SUFFIX,wogg.net
 DOMAIN-SUFFIX,wogg.xxooo.cf
@@ -42,6 +51,7 @@ DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,baidu
 
 # IP段匹配
+IP-CIDR,183.207.0.0/16,no-resolve
 IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,35.215.137.196/32,no-resolve
 
