@@ -1,6 +1,14 @@
 # 代理补充列表
 
 # 域名后缀匹配
+DOMAIN-SUFFIX,cdn.hinet.net
+DOMAIN-SUFFIX,livednow.com
+DOMAIN-SUFFIX,livednow.org
+DOMAIN-SUFFIX,wx.sb
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,ofiii.com
+DOMAIN-SUFFIX,aldl.chirmyram.com
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,livefilestore.com
@@ -27,9 +35,9 @@ DOMAIN-SUFFIX,zhuifan.link
 DOMAIN-SUFFIX,SharePoint.com
 
 # 域名关键字匹配
+DOMAIN-KEYWORD,pikpak
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,mypikpak
-DOMAIN-KEYWORD,docker
 
 # IP段匹配
 IP-CIDR,142.171.133.131/32,no-resolve
