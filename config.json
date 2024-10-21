@@ -1,0 +1,827 @@
+"outbounds": [
+    {
+      "tag": "🚀 节点选择",
+      "type": "selector",
+      "outbounds": [
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ]
+    },
+    {
+      "tag": "👆 手动选择",
+      "type": "selector",
+      "use_all_providers": true
+    },
+    {
+      "tag": "🐟 漏网之鱼",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🇭🇰 香港节点"
+    },
+    {
+      "tag": "📈 网络测试",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🎯 全球直连"
+    },
+    {
+      "tag": "🤖 人工智能",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🇯🇵 日本节点"
+    },
+    {
+      "tag": "🎮 游戏服务",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ]
+    },
+    {
+      "tag": "🪟 微软服务",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🇸🇬 新加坡节点"
+    },
+    {
+      "tag": "🇬 谷歌服务",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🇸🇬 新加坡节点"
+    },
+    {
+      "tag": "🍎 苹果服务",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🎯 全球直连"
+    },
+    {
+      "tag": "📹 油管视频",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🌍 国外媒体",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ]
+    },
+    {
+      "tag": "🎵 TikTok",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🌍 国外媒体",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🇸🇬 新加坡节点"
+    },
+    {
+      "tag": "📺 哔哩哔哩",
+      "type": "selector",
+      "outbounds": [
+        "🎯 全球直连",
+        "🚀 节点选择",
+        "👆 手动选择",
+        "🌍 国外媒体",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇯🇵 日本节点",
+        "🇸🇬 新加坡节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ]
+    },
+    {
+      "tag": "🌍 国外媒体",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ]
+    },
+    {
+      "tag": "🇨🇳 直连域名",
+      "type": "selector",
+      "outbounds": [
+        "🎯 全球直连",
+        "🚀 节点选择",
+        "👆 手动选择"
+      ]
+    },
+    {
+      "tag": "🇨🇳 直连 IP",
+      "type": "selector",
+      "outbounds": [
+        "🎯 全球直连",
+        "🚀 节点选择",
+        "👆 手动选择"
+      ]
+    },
+    {
+      "tag": "🪜 代理域名",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ]
+    },
+    {
+      "tag": "📲 电报消息",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🇭🇰 香港节点"
+    },
+    {
+      "tag": "🖥️ 直连软件",
+      "type": "selector",
+      "outbounds": [
+        "🎯 全球直连",
+        "👆 手动选择"
+      ]
+    },
+    {
+      "tag": "🔒 私有网络",
+      "type": "selector",
+      "outbounds": [
+        "🎯 全球直连",
+        "👆 手动选择"
+      ]
+    },
+    {
+      "tag": "🥵 受限服务",
+      "type": "selector",
+      "outbounds": [
+        "🎯 全球直连",
+        "👆 手动选择",
+        "🌍 国外媒体",
+        "🏡 稳定家宽",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ],
+      "default": "🇭🇰 香港节点"
+    },
+    {
+      "tag": "🎯 全球直连",
+      "type": "selector",
+      "outbounds": [
+        "DIRECT"
+      ]
+    },
+    {
+      "tag": "REJECT",
+      "type": "block"
+    },
+    {
+      "tag": "DIRECT",
+      "type": "direct"
+    },
+    {
+      "tag": "GLOBAL",
+      "type": "selector",
+      "outbounds": [
+        "DIRECT",
+        "REJECT",
+        "🇭🇰 香港节点",
+        "🇹🇼 台湾节点",
+        "🇯🇵 日本节点",
+        "🇰🇷 韩国节点",
+        "🇸🇬 新加坡节点",
+        "🇺🇸 美国节点",
+        "👨🏻 西欧节点",
+        "🐵 东南亚节点",
+        "👨🏿 非洲及其他节点",
+        "🤓👆 白嫖机场",
+        "Ⓜ 手动添加"
+      ]
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "tag": "🏡 稳定家宽",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "家庭宽带"
+      ]
+    },
+    {
+      "tag": "🇭🇰 香港节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "🇭🇰",
+        "Pro"
+      ]
+    },
+    {
+      "tag": "🇹🇼 台湾节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "🇹🇼",
+        "Pro"
+      ]
+    },
+    {
+      "tag": "🇯🇵 日本节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "🇯🇵",
+        "Pro"
+      ]
+    },
+    {
+      "tag": "🇰🇷 韩国节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "🇰🇷",
+        "Pro"
+      ]
+    },
+    {
+      "tag": "🇸🇬 新加坡节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "🇸🇬",
+        "Pro"
+      ]
+    },
+    {
+      "tag": "🇺🇸 美国节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "🇺🇸|🇺🇲",
+        "Pro"
+      ]
+    },
+    {
+      "tag": "👨🏻 西欧节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "乌克兰|🇷🇺|🇨🇦|🇩🇪|🇮🇹|🇦🇺|🇨🇭|🇬🇧"
+      ]
+    },
+    {
+      "tag": "🐵 东南亚节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "🇹🇭|🇻🇳|🇲🇾|🇮🇳|🇹🇷"
+      ]
+    },
+    {
+      "tag": "👨🏿 非洲及其他节点",
+      "type": "urltest",
+      "tolerance": 50,
+      "providers": [
+        "🛫 主要机场"
+      ],
+      "includes": [
+        "尼日利亚|摩洛哥|🇦🇷|巴基斯坦|🇹🇷"
+      ]
+    },
+    {
+      "tag": "🤓👆 白嫖机场",
+      "type": "selector",
+      "providers": [
+        "🤓👆 白嫖机场"
+      ]
+    },
+    {
+      "tag": "Ⓜ 手动添加",
+      "type": "selector",
+      "providers": [
+        "Ⓜ 手动添加"
+      ]
+    }
+  ],
+  "outbound_providers": [
+    {
+      "tag": "🛫 主要机场",
+      "type": "remote",
+      "download_url": "https://tianshu.jklk.us.kg/b2ed16e9-2d83-44bb-9f45-f0539375bd1c/clash",
+      "path": "./providers/Main.txt",
+      "download_interval": "24h",
+      "download_ua": "sing-box",
+      "healthcheck_url": "https://www.gstatic.com/generate_204",
+      "healthcheck_interval": "10m",
+      "excludes": "官网|过期|流量|剩余|时间"
+    },
+    {
+      "tag": "🤓👆 白嫖机场",
+      "type": "remote",
+      "download_url": "http://192.168.50.119:3001/CKg2abstVnOeRpm1aB4G/download/1?target=ClashMeta",
+      "path": "./providers/baipiao.txt",
+      "download_interval": "24h",
+      "download_ua": "sing-box",
+      "healthcheck_url": "https://www.gstatic.com/generate_204",
+      "healthcheck_interval": "10m",
+      "excludes": "剩余|到期|流量|时间|官网|每月"
+    },
+    {
+      "tag": "Ⓜ 手动添加",
+      "type": "remote",
+      "download_url": "http://192.168.50.119:3001/CKg2abstVnOeRpm1aB4G/download/2?target=ClashMeta",
+      "path": "./providers/manual.txt",
+      "download_interval": "24h",
+      "download_ua": "sing-box",
+      "healthcheck_url": "https://www.gstatic.com/generate_204",
+      "healthcheck_interval": "10m"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "rule_set": [
+          "custom_direct"
+        ],
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": [
+          "custom_proxy"
+        ],
+        "outbound": "🚀 节点选择"
+      },
+      {
+        "rule_set": [
+          "applications"
+        ],
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": [
+          "private"
+        ],
+        "outbound": "🔒 私有网络"
+      },
+      {
+        "rule_set": [
+          "cn"
+        ],
+        "outbound": "🇨🇳 直连域名"
+      },
+      {
+        "rule_set": [
+          "microsoft-cn"
+        ],
+        "outbound": "🪟 微软服务"
+      },
+      {
+        "rule_set": [
+          "apple-cn"
+        ],
+        "outbound": "🍎 苹果服务"
+      },
+      {
+        "rule_set": [
+          "google-cn"
+        ],
+        "outbound": "🇬 谷歌服务"
+      },
+      {
+        "rule_set": [
+          "games-cn"
+        ],
+        "outbound": "🎮 游戏服务"
+      },
+      {
+        "rule_set": [
+          "youtube"
+        ],
+        "outbound": "📹 油管视频"
+      },
+      {
+        "rule_set": [
+          "tiktok"
+        ],
+        "outbound": "🎵 TikTok"
+      },
+      {
+        "rule_set": [
+          "bilibili"
+        ],
+        "outbound": "📺 哔哩哔哩"
+      },
+      {
+        "rule_set": [
+          "proxy_media"
+        ],
+        "outbound": "🌍 国外媒体"
+      },
+      {
+        "rule_set": [
+          "ai"
+        ],
+        "outbound": "🤖 人工智能"
+      },
+      {
+        "rule_set": [
+          "networktest"
+        ],
+        "outbound": "📈 网络测试"
+      },
+      {
+        "rule_set": [
+          "proxy"
+        ],
+        "outbound": "🪜 代理域名"
+      },
+      {
+        "rule_set": [
+          "telegramip"
+        ],
+        "outbound": "📲 电报消息",
+        "skip_resolve": false
+      },
+      {
+        "rule_set": [
+          "privateip"
+        ],
+        "outbound": "🔒 私有网络",
+        "skip_resolve": false
+      },
+      {
+        "rule_set": [
+          "cnip"
+        ],
+        "outbound": "🇨🇳 直连 IP",
+        "skip_resolve": false
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "custom_direct",
+        "type": "local",
+        "format": "source",
+        "path": "./ruleset/json/custom_direct.json"
+      },
+      {
+        "tag": "custom_proxy",
+        "type": "local",
+        "format": "source",
+        "path": "./ruleset/json/custom_proxy.json"
+      },
+      {
+        "tag": "proxy_media",
+        "type": "local",
+        "format": "source",
+        "path": "./ruleset/json/ProxyMedia.json"
+      },
+      {
+        "tag": "applications",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/applications.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/applications.srs"
+      },
+      {
+        "tag": "private",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/private.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/private.srs"
+      },
+      {
+        "tag": "microsoft-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/microsoft-cn.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/microsoft-cn.srs"
+      },
+      {
+        "tag": "apple-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/apple-cn.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/apple-cn.srs"
+      },
+      {
+        "tag": "google-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/google-cn.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/google-cn.srs"
+      },
+      {
+        "tag": "games-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/games-cn.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/games-cn.srs"
+      },
+      {
+        "tag": "youtube",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/youtube.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/youtube.srs"
+      },
+      {
+        "tag": "tiktok",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/tiktok.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/tiktok.srs"
+      },
+      {
+        "tag": "bilibili",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/bilibili.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/bilibili.srs"
+      },
+      {
+        "tag": "ai",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/ai.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/ai.srs"
+      },
+      {
+        "tag": "networktest",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/networktest.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/networktest.srs"
+      },
+      {
+        "tag": "proxy",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/proxy.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/proxy.srs"
+      },
+      {
+        "tag": "cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/cn.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/cn.srs"
+      },
+      {
+        "tag": "telegramip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/telegramip.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/telegramip.srs"
+      },
+      {
+        "tag": "privateip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/privateip.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/privateip.srs"
+      },
+      {
+        "tag": "cnip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/srs/cnip.srs",
+        "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/cnip.srs"
+      }
+    ],
+    "final": "🐟 漏网之鱼",
+    "auto_detect_interface": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "./cache.db"
+    },
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "./ui"
+    }
+  }
+}
