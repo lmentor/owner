@@ -2,7 +2,7 @@
   "log": { "disabled": false, "level": "warn", "timestamp": true },
   "dns": {
     "servers": [
-       { "tag": "dns_block", "address": "rcode://success" },
+      { "tag": "dns_block", "address": "rcode://success" },
       { "tag": "dns_local", "address": [ "223.5.5.5", "119.29.29.29", "[2400:3200::1]", "[2400:3200:baba::1]", "[2402:4e00::]" ], "detour": "🎯 全球直连" },
       { "tag": "dns_proxy", "address": [ "tls://8.8.4.4", "tls://208.67.222.2" ], "client_subnet": "114.114.114.114", "detour": "🎯 全球直连" },
       { "tag": "dns_fakeip", "address": "fakeip" }
@@ -12,7 +12,7 @@
       { "domain_suffix": [ "ghproxy.com", "jsdelivr.net", "guangbomi.com", "oaifree.com" ], "server": "dns_local" },
       { "clash_mode": "Direct", "query_type": [ "A", "AAAA" ], "server": "dns_local" },
       { "clash_mode": "Global", "query_type": [ "A", "AAAA" ], "server": "dns_proxy" },
-       { "rule_set": [ "ads" ], "server": "dns_block", "disable_cache": true, "rewrite_ttl": 0 },
+      { "rule_set": [ "ads" ], "server": "dns_block", "disable_cache": true, "rewrite_ttl": 0 },
       { "rule_set": [ "proxy" ], "query_type": [ "A", "AAAA" ],"rewrite_ttl": 1, "server": "dns_fakeip"},
       { "rule_set": [ "cn" ], "query_type": [ "A", "AAAA" ], "server": "dns_local" },
       { "fallback_rules": [ { "rule_set": [ "cnip" ], "server": "dns_local" }, { "match_all": true, "server": "dns_fakeip", "rewrite_ttl": 1 } ], "server": "dns_proxy" }
@@ -30,7 +30,7 @@
   ],
   "outbounds": [
     { "tag": "🔰 节点选择", "type": "selector", "outbounds": [ "♻️ 自动选择", "🇭🇰 香港自动", "🇨🇳 台湾自动", "🇯🇵 日本自动", "🇰🇷 韩国自动", "🇸🇬 狮城自动", "🇺🇸 美国自动", "🌀 手动切换", "🎯 全球直连" ] },
-	  { "tag": "🌀 手动切换", "type": "selector", "use_all_providers": true, "includes": [ "🇭🇰|香港|HK|HONGKONG|HongKong|🇨🇳|台湾|TW|TAIWAN|Taiwan|🇯🇵|日本|JP|JAPAN|Japan|🇸🇬|新加坡|SG|SINGAPORE|Singapore|🇺🇸|美国|US|UNITED STATES|United States" ] },
+    { "tag": "🌀 手动切换", "type": "selector", "use_all_providers": true, "includes": [ "🇭🇰|香港|HK|HONGKONG|HongKong|🇨🇳|台湾|TW|TAIWAN|Taiwan|🇯🇵|日本|JP|JAPAN|Japan|🇸🇬|新加坡|SG|SINGAPORE|Singapore|🇺🇸|美国|US|UNITED STATES|United States" ] },
     { "tag": "♻️ 自动选择", "type": "urltest", "url": "http://www.google-analytics.com/generate_204", "tolerance": 50, "outbounds": [ "🇭🇰 香港自动", "🇨🇳 台湾自动", "🇯🇵 日本自动", "🇰🇷 韩国自动", "🇸🇬 狮城自动", "🇺🇸 美国自动" ] },
     { "tag": "🤖 人工智能", "type": "selector", "outbounds": [ "🇭🇰 香港自动", "🇨🇳 台湾自动", "🇯🇵 日本自动", "🇰🇷 韩国自动", "🇸🇬 狮城自动", "🇺🇸 美国自动" ] },
     { "tag": "🎮 游戏服务", "type": "selector", "outbounds": [ "🎯 全球直连", "🔰 节点选择" ] },
@@ -49,7 +49,7 @@
     { "tag": "DIRECT", "type": "direct" },
     { "tag": "GLOBAL", "type": "selector", "outbounds": [ "DIRECT", "REJECT", "🇭🇰 香港自动", "🇨🇳 台湾自动", "🇯🇵 日本自动", "🇰🇷 韩国自动", "🇸🇬 狮城自动", "🇺🇸 美国自动" ] },
     { "tag": "dns-out", "type": "dns" },
-  	{ "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": [ "🔰 节点选择", "🎯 全球直连" ] },
+    { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": [ "🔰 节点选择", "🎯 全球直连" ] },
     { "tag": "🇭🇰 香港自动", "type": "urltest", "url": "http://www.google-analytics.com/generate_204", "tolerance": 50, "use_all_providers": true, "includes": [ "🇭🇰|香港|HK|HONGKONG|HongKong" ] },
     { "tag": "🇨🇳 台湾自动", "type": "urltest", "url": "http://www.google-analytics.com/generate_204", "tolerance": 50, "use_all_providers": true, "includes": [ "🇨🇳|台湾|TW|TAIWAN|Taiwan" ] },
     { "tag": "🇯🇵 日本自动", "type": "urltest", "url": "http://www.google-analytics.com/generate_204", "tolerance": 50, "use_all_providers": true, "includes": [ "🇯🇵|日本|JP|JAPAN|Japan" ] },
