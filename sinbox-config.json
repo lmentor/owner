@@ -57,19 +57,6 @@
     { "tag": "🇸🇬 狮城自动", "type": "urltest", "url": "http://www.google-analytics.com/generate_204", "tolerance": 50, "use_all_providers": true, "includes": [ "🇸🇬|新加坡|SG|SINGAPORE|Singapore" ] },
     { "tag": "🇺🇸 美国自动", "type": "urltest", "url": "http://www.google-analytics.com/generate_204", "tolerance": 50, "use_all_providers": true, "includes": [ "🇺🇸|美国|US|UNITED STATES|United States" ] }
   ],
-  "outbound_providers": [
-    {
-      "tag": "🛫 1",
-      "type": "remote",
-      "download_url": "https://1.com",
-      "path": "./1.yaml",
-      "download_interval": "24h",
-      "download_ua": "clash.meta",
-      "includes": [],
-      "healthcheck_url": "http://www.google-analytics.com/generate_204",
-      "healthcheck_interval": "10m"
-    }
-  ],
   "route": {
     "rules": [
       { "protocol": [ "dns" ], "outbound": "dns-out" },
